@@ -13,10 +13,10 @@
         <item name="android:contentInsetStart" tools:targetApi="lollipop">0dp</item>
         <item name="android:contentInsetEnd" tools:targetApi="lollipop">0dp</item>
     </style>
-    <style name="pop" parent="@android:style/Widget.Holo.Light.PopupMenu">
+    <style name="pop" parent="@android:style/Widget.Material.Light.PopupMenu" tools:targetApi="lollipop">
         <item name="android:popupBackground">@drawable/menu_background</item>
     </style>
-    <style name="dropdownlistview" parent="@android:style/Widget.Holo.ListView.DropDown">
+    <style name="dropdownlistview" parent="@android:style/Widget.Material.ListView.DropDown" tools:targetApi="lollipop">
         <item name="android:divider">#FFFFFF</item>
         <item name="android:dividerHeight">1px</item>
         <item name="android:paddingLeft">5dp</item>
