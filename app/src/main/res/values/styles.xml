@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="toolbarStyle">@style/MyToolbar</item>
+        <item name="android:popupMenuStyle">@style/pop</item>
+        <item name="android:dropDownListViewStyle">@style/dropdownlistview</item>
+        <item name="android:textAppearanceLargePopupMenu">@style/PopupMenuTextAppearanceLarge</item>
+        <item name="android:textAppearanceSmall">@style/PopupMenuTextAppearanceSmall</item>
+    </style>
+    <style name="MyToolbar" parent="@style/Widget.AppCompat.Toolbar">
+        <item name="android:contentInsetStart" tools:targetApi="lollipop">0dp</item>
+        <item name="android:contentInsetEnd" tools:targetApi="lollipop">0dp</item>
+    </style>
+    <style name="pop" parent="@android:style/Widget.Holo.Light.PopupMenu">
+        <item name="android:popupBackground">@drawable/menu_background</item>
+    </style>
+    <style name="dropdownlistview" parent="@android:style/Widget.Holo.ListView.DropDown">
+        <item name="android:divider">#FFFFFF</item>
+        <item name="android:dividerHeight">1px</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+    </style>
+    <style name="PopupMenuTextAppearanceLarge" parent="@android:style/TextAppearance.Holo.Widget.PopupMenu.Large">
+        <item name="android:textColor">#ff6501</item>
+    </style>
+    <style name="PopupMenuTextAppearanceSmall" parent="@android:style/TextAppearance.Holo.Widget.PopupMenu.Small">
+        <item name="android:textColor">#e93b46</item>
+    </style>
+</resources>
